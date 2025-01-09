@@ -1,0 +1,54 @@
+b h1{
+    font-size: xxxxxx-large;
+    
+}
+ul{
+    margin-left: 1050px;
+    display: inline;
+    text-decoration: none;
+    
+}
+li {
+    display: inline-block;
+    
+padding: 2px;
+text-decoration: none;
+}
+a{
+    color: aliceblue;
+}
+#container div{
+    height:100px;
+    width:50px;
+    background-color: aquamarine;
+  margin: 10px;
+  padding: 60px;
+  text-align: center;
+
+}
+#container{
+    background-color: deeppink;
+    display:flex;
+    height: 700px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+
+
+
+    .blink {
+        color: red;
+        font-size: 24px;
+        font-weight: bold;
+        animation: blink 1s step-start infinite;
+      }
+  
+      @keyframes blink {
+        50% {
+          opacity: 0;
+        }
+      }
+
