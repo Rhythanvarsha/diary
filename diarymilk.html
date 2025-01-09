@@ -15,6 +15,7 @@
  <nav ><ul><li><a href="#Home" style="text-decoration: none;">Home |</a></li>
         <li><a href="#About" style="text-decoration: none;">About |</a></li>
         <li><a href="#Catogories" style="text-decoration: none;">Catogories |</a></li>
+        <li><a href="#videos" style="text-decoration: none;">Video |</a></li>
         <li><a href="#Reviews" style="text-decoration: none;">Reviews |</a></li>
         <li><a href="#location" style="text-decoration: none;">location |</a></li>
         <li><a href="#contact" style="text-decoration: none;padding-right: 70px;">contact |</a></li>
@@ -22,7 +23,15 @@
 
  </nav></div>
     </header><br><br>
-    <img src="diary lady.jpg" width="1500">
+    <!-- <img src="diary lady.jpg" width="1500"> -->
+    <img src="diary lady.jpg" usemap="#image-map" style="width: 1500px;">
+
+    <map name="image-map">
+        <area target="_blank" alt="Cadbury Dairy Milk Wiki" title="Cadbury Dairy Milk Wiki" 
+              href="https://en.wikipedia.org/wiki/Cadbury_Dairy_Milk" 
+              coords="2,10,1498,739" shape="rect">
+    </map>
+    
     <main>
         <section id="Home" style="background-image: url('aboutimg.webp');">
             <div style="position: relative; height: 800px; color: white; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
@@ -120,12 +129,33 @@
         </section>
             
         
-        <br><br>    
+        <br><br>  <br>  
  
 
 
-<section id="Catogories" style="text-align: center;background-image: url('dow back.jpg');background-repeat: no-repeat;background-size: cover; background-attachment: fixed;height: 800px;">
-    <pre><centre style="font-size: xxx-large;color: #f2dbf7;text-shadow: #f2dbf7;">               "Lets Look Through the Categories"</centre></pre><br><br><br><br>
+<section id="Catogories" style="text-align: center;background-image: url('dow back.jpg');border-radius:10px;background-repeat: no-repeat;background-size: cover; background-attachment: fixed;height: 800px;">
+    
+    <h2 style="
+    position: relative;
+    padding: 60px 20px;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+    color: rgb(142, 27, 119);
+    text-align: center;
+    letter-spacing: 1px;
+    background-image: url('diary form.webp');
+    background-size: cover;
+    border-radius: 15px;
+    overflow: hidden;
+    animation: fadeInUp 2s ease-in-out;
+">
+    <span style="display: inline-block; opacity: 0; animation: textReveal 2s forwards 0.5s;">
+        "Lets Look Through the Categories"
+    </span>
+  
+</h2>
+
     <div style="display: inline-block; margin: 10px;">
       <img src="diary milk heart.jpg" alt="Diary Milk Heart" style="width: 150px; height: 200px; border-radius: 10px; transition: transform 0.3s, opacity 0.3s;" onclick="this.style.transform='scale(1.1)'; this.style.opacity='0.8';">
       <p style="font-family: Arial, sans-serif; font-size: 14px; color: #ece4ec;">Delicious chocolate treat to express love.</p>
@@ -163,11 +193,89 @@
 
 
 
-<br><BR>
+
    
   </section>
   
-        <section id="Reviews" style="position: relative; color: white; padding: 50px; overflow: hidden; text-align: center; background-image: url('dow back.jpg');background-size: cover; background-attachment: fixed; background-repeat: no-repeat; background-position: center; color: white; padding: 50px;">
+<br><br><br>
+  <section id="videos" style="padding: 40px; background-image: url('locback.jpg');background-repeat: no-repeat;background-size: cover;border-radius: 20px; color: white; text-align: center; font-family: Arial, sans-serif;">
+    <h2 style="
+    position: relative;
+    padding: 60px 20px;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+    color: rgb(142, 27, 119);
+    text-align: center;
+    letter-spacing: 1px;
+    background-image: url('diary form.webp');
+    background-size: cover;
+    border-radius: 15px;
+    overflow: hidden;
+    animation: fadeInUp 2s ease-in-out;
+">
+    <span style="display: inline-block; opacity: 0; animation: textReveal 2s forwards 0.5s;">
+        Our Featured Videos
+    </span>
+    <span style="
+        display: block;
+        font-size: 18px;
+        color: #f0f0f0;
+        opacity: 0;
+        animation: fadeIn 3s forwards 1s;
+    ">
+        Explore our curated collection of inspiring videos!
+    </span>
+</h2>
+
+
+
+    <div class="video-slider" style="display: flex; overflow-x: auto; scroll-snap-type: x mandatory;">
+        
+        <div style="flex: 0 0 auto; scroll-snap-align: center; margin: 0 10px;">
+            <video src="my2.mp4" controls style="width: 400px; height: 300px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); transition: transform 0.3s ease;">
+                video
+            </video>
+        </div>
+
+        
+        <div style="flex: 0 0 auto; scroll-snap-align: center; margin: 0 10px;">
+            <video src="my3.mp4" controls style="width: 400px; height: 300px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); transition: transform 0.3s ease;">
+               ideo tag
+            </video>
+        </div>
+
+    
+        <div style="flex: 0 0 auto; scroll-snap-align: center; margin: 0 10px;">
+            <video src="my4.mp4" controls style="width: 400px; height: 300px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); transition: transform 0.3s ease;">
+                 video ta
+            </video>
+        </div>
+
+        <div style="flex: 0 0 auto; scroll-snap-align: center; margin: 0 10px;">
+            <video src="my5.mp4" controls style="width: 400px; height: 300px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); transition: transform 0.3s ease;">
+               video tag.
+            </video>
+        </div>
+        <div style="flex: 0 0 auto; scroll-snap-align: center; margin: 0 10px;">
+            <video src="my6.mp4" controls style="width: 400px; height: 300px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); transition: transform 0.3s ease;">
+                 tag
+            </video>
+        </div>
+    </div>
+
+    <style>
+        .video-slider::-webkit-scrollbar {
+            display: none;
+        }
+
+        .video-slider > div:hover video {
+            transform: scale(1.1);
+        }
+    </style>
+</section>
+<br><br><br>
+        <section id="Reviews" style="position: relative; color: white; padding: 50px; overflow: hidden; text-align: center; background-image: url('rev bag.jpg');background-size: cover; background-attachment: fixed; background-repeat: no-repeat; background-position: center; color: white; padding: 50px;">
            
            
 
@@ -212,7 +320,7 @@
                 </iframe>
             </div>
         
-            <!-- YouTube Video Embed -->
+           
             <div style="margin: 20px auto; display: inline-block; border: 5px solid rgba(255, 255, 255, 0.5); border-radius: 15px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);">
                 <iframe 
                     width="600" 
